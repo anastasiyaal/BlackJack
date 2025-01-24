@@ -6,9 +6,17 @@
 //
 
 #include <iostream>
+#include "CardModel.hpp"
+#include "DeckModel.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    DeckModel d;
+    
+    std::cout << d.PopRandomCard()->GetFullName() << std::endl;
+    std::cout << d.PopRandomCard()->GetFullName() << std::endl;
+    std::cout << d.PopRandomCard()->GetFullName() << std::endl;
+    std::cout << d.PopRandomCard()->GetFullName() << std::endl;
+    
+    
     return 0;
 }

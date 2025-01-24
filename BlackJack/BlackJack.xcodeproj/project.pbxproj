@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		85B0449F2D42460C00B96F69 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B0449E2D42460C00B96F69 /* main.cpp */; };
+		85B044A72D424BFF00B96F69 /* CardModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044A52D424BFF00B96F69 /* CardModel.cpp */; };
+		85B044AD2D42511C00B96F69 /* DeckModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044AB2D42511C00B96F69 /* DeckModel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		85B0449B2D42460C00B96F69 /* BlackJack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlackJack; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B0449E2D42460C00B96F69 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85B044A52D424BFF00B96F69 /* CardModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CardModel.cpp; sourceTree = "<group>"; };
+		85B044A62D424BFF00B96F69 /* CardModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CardModel.hpp; sourceTree = "<group>"; };
+		85B044AB2D42511C00B96F69 /* DeckModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeckModel.cpp; sourceTree = "<group>"; };
+		85B044AC2D42511C00B96F69 /* DeckModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeckModel.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,36 @@
 			isa = PBXGroup;
 			children = (
 				85B0449E2D42460C00B96F69 /* main.cpp */,
+				85B044AA2D424D1B00B96F69 /* Controller */,
+				85B044A92D424CDE00B96F69 /* View */,
+				85B044A82D424C9D00B96F69 /* Model */,
 			);
 			path = BlackJack;
+			sourceTree = "<group>";
+		};
+		85B044A82D424C9D00B96F69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85B044A62D424BFF00B96F69 /* CardModel.hpp */,
+				85B044A52D424BFF00B96F69 /* CardModel.cpp */,
+				85B044AC2D42511C00B96F69 /* DeckModel.hpp */,
+				85B044AB2D42511C00B96F69 /* DeckModel.cpp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85B044A92D424CDE00B96F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85B044AA2D424D1B00B96F69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B044AD2D42511C00B96F69 /* DeckModel.cpp in Sources */,
 				85B0449F2D42460C00B96F69 /* main.cpp in Sources */,
+				85B044A72D424BFF00B96F69 /* CardModel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
