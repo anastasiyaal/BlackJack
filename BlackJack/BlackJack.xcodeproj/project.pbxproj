@@ -10,6 +10,11 @@
 		85B0449F2D42460C00B96F69 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B0449E2D42460C00B96F69 /* main.cpp */; };
 		85B044A72D424BFF00B96F69 /* CardModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044A52D424BFF00B96F69 /* CardModel.cpp */; };
 		85B044AD2D42511C00B96F69 /* DeckModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044AB2D42511C00B96F69 /* DeckModel.cpp */; };
+		85B044B02D4398E500B96F69 /* PlayerModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044AE2D4398E500B96F69 /* PlayerModel.cpp */; };
+		85B044B32D43A85100B96F69 /* DealerModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044B12D43A85100B96F69 /* DealerModel.cpp */; };
+		85B044B62D4A1B3300B96F69 /* TableModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044B42D4A1B3300B96F69 /* TableModel.cpp */; };
+		85B044B92D4A1FBF00B96F69 /* TableController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044B72D4A1FBF00B96F69 /* TableController.cpp */; };
+		85B044BC2D4A1FD900B96F69 /* TableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044BA2D4A1FD900B96F69 /* TableView.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		85B044A62D424BFF00B96F69 /* CardModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CardModel.hpp; sourceTree = "<group>"; };
 		85B044AB2D42511C00B96F69 /* DeckModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeckModel.cpp; sourceTree = "<group>"; };
 		85B044AC2D42511C00B96F69 /* DeckModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeckModel.hpp; sourceTree = "<group>"; };
+		85B044AE2D4398E500B96F69 /* PlayerModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerModel.cpp; sourceTree = "<group>"; };
+		85B044AF2D4398E500B96F69 /* PlayerModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerModel.hpp; sourceTree = "<group>"; };
+		85B044B12D43A85100B96F69 /* DealerModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DealerModel.cpp; sourceTree = "<group>"; };
+		85B044B22D43A85100B96F69 /* DealerModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DealerModel.hpp; sourceTree = "<group>"; };
+		85B044B42D4A1B3300B96F69 /* TableModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TableModel.cpp; sourceTree = "<group>"; };
+		85B044B52D4A1B3300B96F69 /* TableModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TableModel.hpp; sourceTree = "<group>"; };
+		85B044B72D4A1FBF00B96F69 /* TableController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TableController.cpp; sourceTree = "<group>"; };
+		85B044B82D4A1FBF00B96F69 /* TableController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TableController.hpp; sourceTree = "<group>"; };
+		85B044BA2D4A1FD900B96F69 /* TableView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TableView.cpp; sourceTree = "<group>"; };
+		85B044BB2D4A1FD900B96F69 /* TableView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TableView.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,12 @@
 				85B044A52D424BFF00B96F69 /* CardModel.cpp */,
 				85B044AC2D42511C00B96F69 /* DeckModel.hpp */,
 				85B044AB2D42511C00B96F69 /* DeckModel.cpp */,
+				85B044AF2D4398E500B96F69 /* PlayerModel.hpp */,
+				85B044AE2D4398E500B96F69 /* PlayerModel.cpp */,
+				85B044B22D43A85100B96F69 /* DealerModel.hpp */,
+				85B044B12D43A85100B96F69 /* DealerModel.cpp */,
+				85B044B52D4A1B3300B96F69 /* TableModel.hpp */,
+				85B044B42D4A1B3300B96F69 /* TableModel.cpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +106,8 @@
 		85B044A92D424CDE00B96F69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				85B044BB2D4A1FD900B96F69 /* TableView.hpp */,
+				85B044BA2D4A1FD900B96F69 /* TableView.cpp */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +115,8 @@
 		85B044AA2D424D1B00B96F69 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				85B044B82D4A1FBF00B96F69 /* TableController.hpp */,
+				85B044B72D4A1FBF00B96F69 /* TableController.cpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,7 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B044AD2D42511C00B96F69 /* DeckModel.cpp in Sources */,
+				85B044BC2D4A1FD900B96F69 /* TableView.cpp in Sources */,
 				85B0449F2D42460C00B96F69 /* main.cpp in Sources */,
+				85B044B62D4A1B3300B96F69 /* TableModel.cpp in Sources */,
+				85B044B32D43A85100B96F69 /* DealerModel.cpp in Sources */,
+				85B044B02D4398E500B96F69 /* PlayerModel.cpp in Sources */,
+				85B044B92D4A1FBF00B96F69 /* TableController.cpp in Sources */,
 				85B044A72D424BFF00B96F69 /* CardModel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

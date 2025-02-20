@@ -34,7 +34,7 @@ CardModel* DeckModel::PopRandomCard() {
 //    int num = rand() % range + min;
     if(cards.size()) {
         srand(static_cast<unsigned int>(time(nullptr)));
-        unsigned short range = static_cast<unsigned short>(cards.size() + 1);
+        unsigned short range = static_cast<unsigned short>(cards.size());
         unsigned short num = static_cast<unsigned short>(rand() % range);
         CardModel* temp = cards[num];
         cards.erase(cards.begin() + num);
